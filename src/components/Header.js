@@ -48,7 +48,8 @@ export default function Header({
         <Navbar.Brand>
           <Logo /> BuzzHub :)
         </Navbar.Brand>
-        <div className="nav-buttons">
+              <div className="nav-buttons">
+                  
           {!isNil(sound) ? (
             <button className="text-button" onClick={() => setSound()}>
               {sound ? 'Turn off sound' : 'Turn on sound'}

@@ -1,5 +1,5 @@
 :root {
-    --backgroundColor: #282c35;
+    --backgroundColor: #000000;
     --lightBackgroundColor: #343a48;
     --redColor: #d0021b;
     --lightRedColor: #e36776;
@@ -8,23 +8,27 @@
     --lightBlueColor: #aed1fb;
     --hoverBlueColor: #4898f6;
     --brightBlueColor: #348df5;
+    /* --brightBlueColor: #313131;*/
     --activeColor: #3b404b;
     --dimTextColor: #a7a9ae;
     --disabledTextColor: #57595c;
     --paragraphColor: #b4b4b4;
-    --darkBlueColor: #2c313e;
+    /* --darkBlueColor: #2c313e;*/
+    --darkBlueColor: #313131;
     --disabledBlueColor: #1a477b;
     --hoverGreenColor: #5bd826;
 }
 
 html,
 body {
-  background-color: var(--backgroundColor);
+    background-color: var(--backgroundColor);
+    
 }
 
 .App {
-  color: white;
-  font-family: 'Inter', sans-serif;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 .App main {
@@ -42,14 +46,15 @@ body {
   min-height: 60px;
 }
 
-.App header .navbar-brand {
-  color: white;
-  font-weight: 600;
-  font-size: 1.2rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+    .App header .navbar-brand {
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: right;
+    }
 
 .App header .navbar-brand:hover {
   color: white;
@@ -63,13 +68,14 @@ body {
   margin-right: 10px;
 }
 
-.App header .nav-buttons > :not(:first-child) {
-  margin-left: 5px;
-}
+    .App header .nav-buttons > :not(:first-child) {
+        margin-left: 5px;
+        text-align: right;
+    }
 
 /* BUTTON */
 
-.App button {
+    .App button {
   background: none;
   font-weight: 700;
   color: white;
@@ -91,11 +97,12 @@ body {
   outline: none;
 }
 
-.App button.text-button {
-  font-weight: 500;
-  color: var(--dimTextColor);
-  border: none;
-}
+        .App button.text-button {
+            font-weight: 500;
+            color: var(--dimTextColor);
+            border: none;
+            text-align: right;
+        }
 
 .App button.text-button:hover {
   color: white;
@@ -168,9 +175,9 @@ body {
 }
 
 .App #lobby .container-mobile {
-  margin-top: 40px;
-  padding: 0 30px;
-  max-width: 400px;
+    margin-top: 40px;
+    padding: 0 30px;
+    max-width: 400px;
 }
 
 .App .divider {
