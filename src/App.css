@@ -68,9 +68,17 @@ body {
   margin-right: 10px;
 }
 
-    .App header .nav-buttons > :not(:first-child) {
-        margin-left: 5px;
+    /*.App header .nav-buttons > :not(:first-child) {
         text-align: right;
+        margin-left: 5px;
+        display: flex;
+        justify-content: flex-end;
+    }*/
+    .App header .nav-buttons {
+        text-align: right;
+        margin-left: 5px;
+        display: flex;
+        justify-content: flex-end;
     }
 
 /* BUTTON */

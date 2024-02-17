@@ -213,7 +213,7 @@ export default function Table(game) {
           </ul>
         </div>
         <div className="queue">
-          <p>Other Players</p>
+          <p>Players Joined</p>
           <ul>
             {activePlayers.map(({ id, name, connected }) => (
               <li key={id}>
