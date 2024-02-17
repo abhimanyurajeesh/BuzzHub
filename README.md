@@ -1,7 +1,8 @@
 ## BuzzHub
 
 Simple multiplayer buzzer system
-
+[web.abhimanyu](https://web.abhimanyurajeesh.buzz/)
+The web App is locally hosted so might not be available all the time
 
 ### Development
 
